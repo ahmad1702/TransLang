@@ -13,6 +13,10 @@ function App() {
         <Route path="/" element={<Translation />}/>
         <Route path="*" element={<Translation />} />
       </Routes>
+      <div className="cred">
+          <p>By Ahmad Sandid - </p>
+          <a href="https://www.ahmadsandid.com" target='_blank'>Check out my portfolio</a>
+      </div>
     </div>
   );
 }

@@ -311,6 +311,33 @@ textarea {
   }
 }
 
+// Creds
+
+.cred {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    display: flex;
+    align-items: center;
+
+    
+    
+    p {
+        margin: 0;
+        margin-right: 0.5rem;
+        font-weight: 600;
+    }
+    a {
+        color: black;
+        font-weight: 600;
+        margin-bottom:3px;
+        &:hover {
+            color:rgb(124, 124, 124);
+        }
+    }
+}
+
 /* For Javascript Use */
 .show {
   display: block;
