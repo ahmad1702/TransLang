@@ -1,0 +1,320 @@
+html,
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+.heading {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  /* margin: 2rem 3rem 0 3rem; */
+  color: blueviolet;
+  padding: 0 3rem;
+}
+.heading svg {
+  height: 50px;
+  fill: blueviolet;
+  margin-right: 20px;
+}
+.box-container {
+  /* background-color: lightcoral; */
+  width: 100%;
+  height: 80vh;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  width: 80%;
+  height: 65vh;
+  border-radius: 2rem;
+  /* overflow: hidden; */
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.281);
+}
+
+.top {
+  height: 50%;
+  width: 100%;
+  /* overflow: hidden; */
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-section {
+  width: 100%;
+  /* height: 10vh; */
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  /* padding: 0 1rem; */
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.bottom {
+  height: 50%;
+  /* width: 100%; */
+  background: rgb(241, 241, 241);
+  border-radius: 0 3rem 2rem 2rem;
+  /* overflow: hidden; */
+  padding: 2rem;
+}
+
+/* Dropdown */
+.dropbtn1 {
+  background-color: #e6e6e6;
+  border-radius: 2rem;
+  color: rgb(63, 63, 63);
+  padding: 16px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropbtn1:hover,
+.dropbtn1:focus {
+  background-color: #c9c9c9;
+  cursor: pointer;
+}
+.dropbtn1:active {
+  background-color: rgb(0, 183, 255);
+  transition: 0s;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.dropdown1-content {
+  top: 60px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  border-radius: 1rem;
+  height: 300px;
+  overflow: auto;
+}
+
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {
+  background-color: #ddd;
+}
+.dropdown2 {
+  position: relative;
+}
+.dropSelect {
+  width: auto;
+  height: 40px;
+  border-radius: 2rem;
+  /* padding: 1rem 1rem 1rem 3rem; */
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: lightgrey;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  /* background: black; */
+  /* color: white; */
+
+  /* cursor: pointer; */
+}
+.dropSelectMain {
+  height: 40px;
+  /* border-radius: 2rem; */
+  /* padding: 1rem 1rem 1rem 3rem; */
+  padding: 0 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: lightgrey;
+  /* background: black; */
+  /* color: white; */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+
+  min-height: 250px;
+  height: 100%;
+
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 0.37px;
+
+  color: #242c33;
+  background-color: transparent;
+  padding: 0 6px;
+  flex-grow: 2;
+  overflow-y: auto;
+  line-height: 1.29;
+  box-sizing: border-box;
+}
+
+.translateButton {
+  background-color: blueviolet;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  /* padding: 1rem; */
+  /* margin-left: auto; */
+
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  /* font-stretch: normal; */
+  font-style: normal;
+  letter-spacing: 0.37px;
+  cursor: pointer;
+}
+
+/* Loading Bar Animation */
+
+/* $offset: 187; */
+/* $duration: 1.4s; */
+
+/* Loading Bar Animation */
+.spinner {
+  animation: rotator 1.4s linear infinite;
+  display: none;
+}
+
+@-webkit-keyframes rotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+.path {
+  stroke-dasharray: 187;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite, colors 5.6s ease-in-out infinite;
+}
+
+@-webkit-keyframes colors {
+  0% {
+    stroke: #4285f4;
+  }
+  25% {
+    stroke: #de3e35;
+  }
+  50% {
+    stroke: #f7c223;
+  }
+  75% {
+    stroke: #1b9a59;
+  }
+  100% {
+    stroke: #4285f4;
+  }
+}
+
+@keyframes colors {
+  0% {
+    stroke: #4285f4;
+  }
+  25% {
+    stroke: #de3e35;
+  }
+  50% {
+    stroke: #f7c223;
+  }
+  75% {
+    stroke: #1b9a59;
+  }
+  100% {
+    stroke: #4285f4;
+  }
+}
+
+/* Basically a partial stroke is being changed in a loop
+  to imitate the idea of 'spinning'
+  there is a invisible circle that is hidden that the stroke
+  revolves around.
+*/
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 187;
+  }
+  50% {
+    stroke-dashoffset: 46.75;
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 187;
+    transform: rotate(450deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 187;
+  }
+  50% {
+    stroke-dashoffset: 46.75;
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 187;
+    transform: rotate(450deg);
+  }
+}
+
+/* For Javascript Use */
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
