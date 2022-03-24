@@ -29,30 +29,30 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="urlshort/static/assets/ico/ureallight.png" alt="Logo" height="80">
+  <a href="https://github.com/ahmad1702/translang">
+    <img src="public/globe.svg" alt="Logo" height="80" style="filter: invert(1)">
   </a>
 
-  <h1 style="font-weight: 900" align="center">YouAreEl Shortener</h3>
+  <h1 style="font-weight: 900" align="center">Translang</h3>
 
   <p align="center">
-    A place to shorten a url, in a a simple, easy to use interface
+    A simple translation tool, created with React.
     <br />
-    <a href="https://youareel.herokuapp.com/"><strong>Check out the live site »</strong></a>
+    <a href="https://translang.surge.sh/"><strong>Check out the live site »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://translang.surge.sh/">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/ahmad1702/translang/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/ahmad1702/translang/issues">Request Feature</a>
   </p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -75,7 +75,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
 <!-- USAGE EXAMPLES -->
 
@@ -87,37 +87,24 @@
 
 ## Usage
 
-A user can enter a short code for a website or file, and when they go to YouAreEl.herokuapp.com and add their codename to the end of the domain like 'YouAreEl.herokuapp.com/codenamehere', it will redirect them to that site.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Translate text quickly and efficiently with this simple, nice to use app. Configure the two lanauages you would like to using the dropdowns, enter the text in the first half, and click the translate button to translate the text.
 
 
 
-### Built With
+## Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Flask](https://flask.palletsprojects.com/en/2.0.x/)
-* [Bootstrap](https://getbootstrap.com)
+* [React](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Create Flask App
-- [x] Adding the ability to upload links
-- [x] Add a clear history functionality with Flask
-- [ ] Convert into a React Front End
-- [ ] Add Interactive documentation
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [x] Creation of the App using React
+- [x] Integration with multiple languages
+- [ ] Enable Reverse Translation Feature
 
 
 <!-- CONTACT -->
@@ -125,7 +112,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 Your Name - [Portfolio Website](https://www.ahmadsandid.com) - ahmad1702@gmail.com
 
-Project Link: [YouAreEl.heroku.com](https://youareel.herokuapp.com/)
+Project Link: [TransLang.surge.sh](https://translang.surge.sh)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,4 +132,4 @@ Project Link: [YouAreEl.heroku.com](https://youareel.herokuapp.com/)
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: urlshort/static/assets/ico/screenshot.png
+[product-screenshot]: src/Resources/Assets/img/screenshot.png
