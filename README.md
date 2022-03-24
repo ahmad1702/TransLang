@@ -38,12 +38,12 @@
   <p align="center">
     A simple translation tool, created with React.
     <br />
-    <a href="https://translang.surge.sh/"><strong>Check out the live site »</strong></a>
+    <a href="https://translang.surge.sh/" target"_blank"><strong>Check out the live site »</strong></a>
     <br />
     <br />
-    <a href="https://translang.surge.sh/">View Demo</a>
+    <a href="https://translang.surge.sh/" target"_blank">View Demo</a>
     ·
-    <a href="https://github.com/ahmad1702/translang/issues">Report Bug</a>
+    <a href="https://github.com/ahmad1702/translang/issues" >Report Bug</a>
     ·
     <a href="https://github.com/ahmad1702/translang/issues">Request Feature</a>
   </p>
@@ -114,7 +114,7 @@ Your Name - [Portfolio Website](https://www.ahmadsandid.com) - ahmad1702@gmail.c
 
 Project Link: [TransLang.surge.sh](https://translang.surge.sh)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top" target"_blank">back to top</a>)</p>
 
 
 
