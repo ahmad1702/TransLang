@@ -1,4 +1,4 @@
-
+import React, { useState, useRef, useEffect } from 'react'
 // import logo from './logo.svg';
 import './App.scss';
 import { Link, Routes, Route } from 'react-router-dom'
@@ -13,10 +13,10 @@ function App() {
         <Route path="/" element={<Translation />}/>
         <Route path="*" element={<Translation />} />
       </Routes>
-      <div className="cred">
+      {/* <div className="cred">
           <p>By Ahmad Sandid - </p>
           <a href="https://www.ahmadsandid.com" target='_blank'>Check out my portfolio</a>
-      </div>
+      </div> */}
     </div>
   );
 }
