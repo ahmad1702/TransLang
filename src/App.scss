@@ -7,6 +7,7 @@ html,
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  // overflow-x: hidden !important;
 //   overflow: hidden;
 }
 h1,h2,h3,h4,h5, p {
@@ -398,6 +399,12 @@ textarea {
             color:rgb(124, 124, 124);
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+  .ultimateTitle {
+    display: none;
+  }
 }
 
 /* For Javascript Use */
